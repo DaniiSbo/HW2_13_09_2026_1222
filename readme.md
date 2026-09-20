@@ -33,10 +33,11 @@
 #include <stdio.h>
 #include <locale.h>
 
+#define MS_PER_SECOND 1000
+#define CM_PER_METER 100
+#define MS_TO_KMH 3.6f
+
 int main() {
-    const int MS_PER_SECOND = 1000;
-    const int CM_PER_METER = 100;
-    const float MS_TO_KMH = 3.6f;
 
     int X = 500;
     int L = 70;
